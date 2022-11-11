@@ -91,6 +91,42 @@ class DataTypesTableSeeder extends Seeder
                 'created_at' => '2022-05-24 15:21:20',
                 'updated_at' => '2022-05-24 15:21:20',
             ),
+            4 => 
+            array (
+                'id' => 5,
+                'name' => 'personas',
+                'slug' => 'personas',
+                'display_name_singular' => 'Persona',
+                'display_name_plural' => 'Personas',
+                'icon' => 'voyager-people',
+                'model_name' => 'App\\Models\\Persona',
+                'policy_name' => NULL,
+                'controller' => NULL,
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2022-11-11 15:30:08',
+                'updated_at' => '2022-11-11 15:32:42',
+            ),
+            5 => 
+            array (
+                'id' => 7,
+                'name' => 'donaciones',
+                'slug' => 'donaciones',
+                'display_name_singular' => 'Donación',
+                'display_name_plural' => 'Donaciones',
+                'icon' => 'voyager-dollar',
+                'model_name' => 'App\\Models\\Donacion',
+                'policy_name' => NULL,
+                'controller' => NULL,
+                'description' => NULL,
+                'generate_permissions' => 1,
+                'server_side' => 0,
+                'details' => '{"order_column":null,"order_display_column":null,"order_direction":"asc","default_search_key":null,"scope":null}',
+                'created_at' => '2022-11-11 15:31:57',
+                'updated_at' => '2022-11-11 15:40:11',
+            ),
         ));
         
         
